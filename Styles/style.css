@@ -693,8 +693,8 @@ opacity: 0.6;
 .main__ContactUs {
     width: 100%;
     background: 
-        url('./image/contact-img.jpg') left / 50% 100% no-repeat,
-        url('./image/contact-img2.jpg') right / 50% 100% no-repeat;
+        url('../image/contact-img.jpg') left / 50% 100% no-repeat,
+        url('../image/contact-img2.jpg') right / 50% 100% no-repeat;
 }
 
 .CTA {
@@ -1210,13 +1210,13 @@ color: var(--grey);
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url('./image/Plus.svg');
+    background-image: url('../image/Plus.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .toggle-checkbox:checked + .item-header .toggle-btn::before {
-    background-image: url('./image/Minus.svg');
+    background-image: url('../image/Minus.svg');
 }
 /*======================================================================================================*/
 
@@ -1225,7 +1225,7 @@ color: var(--grey);
     width: 100%;
     background: 
         linear-gradient(white, white) 0 0 / 100% 80% no-repeat,
-        url('./image/bback.jpg') 0 100%/ 100% no-repeat;
+        url('../image/bback.jpg') 0 100%/ 100% no-repeat;
     padding: 128px 0 220px 0px;
 }
 
